@@ -56,7 +56,11 @@ Limitation: The gem only can hit at endpoints with basic scope as other scopes i
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/instaimplement.
+Bug reports and pull requests are welcome on GitHub at https://github.com/basicsaki/instaimplement.
+
+## Demo
+The demo for integration using this gem can be found at https://instagramsample.herokuapp.com/
+
 
 ## License
 
