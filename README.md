@@ -14,10 +14,6 @@ Limitation: The gem only can hit at endpoints with basic scope as other scopes i
 
 			    $ bundle
 
-			Or install it yourself as:
-
-			    $ gem install instaimplement
-
 			## Usage
 
 			To install the files related with the gem 
