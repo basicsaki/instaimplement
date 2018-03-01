@@ -8,7 +8,7 @@ Limitation: The gem only can hit at endpoints with basic scope as other scopes i
 
 			Add this line to your application's Gemfile:
 
-				$ gem 'instaimplement'
+				$ gem 'instaimplement', :git => 'https://github.com/basicsaki/instaimplement.git'
 
 			And then execute:
 

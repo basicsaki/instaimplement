@@ -15,7 +15,7 @@ module Instaimplement
 
 		def set_or_update_user_details(response)
 			insta_user = InstagramUser.find_by( insta_id: response["user"]["id"] ) 
-			if insta_user == []
+			if insta_user == nil
 				InstagramUser.create(insta_id: response["user"]["id"],username: response["user"]["username"],profile_picture_link: response["user"]["profile_picture"],full_name: response["user"]["full_name"],bio: response["user"]["bio"],website: response["user"]["website"],access_token: response["access_token"])
 			else
 				insta_user = InstagramUser.new(insta_id: response["user"]["id"],username: response["user"]["username"],profile_picture_link: response["user"]["profile_picture"],full_name: response["user"]["full_name"],bio: response["user"]["bio"],website: response["user"]["website"],access_token: response["access_token"])
