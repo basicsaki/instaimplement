@@ -30,6 +30,9 @@ Limitation: The gem only can hit at endpoints with basic scope as other scopes i
 			The code can be accessed at callback url
 
 				access_token = client.get_access_token( params[:code] )
+            To save the user details in the model InstagramUser
+				client.set_or_update_user_details(response)
+
 
 
 			#Requests
